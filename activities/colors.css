@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer p {
+    color: #0b456b;
+}
+
+#text {
+    color: blue;
+}
+
+.red {
+    color: red;
+}
+
+.font {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.color {
+    color: darkgreen;
+}
+
+.test {
+    color: goldenrod;
+}
