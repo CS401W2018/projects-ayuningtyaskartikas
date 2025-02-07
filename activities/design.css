@@ -1,0 +1,18 @@
+body { 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    color: #2a363b;
+    background-color: #ffffff;
+}
+
+.color {
+    color: rgb(207, 26, 72);
+}
+
+footer p {
+    color: #0b456b;
+}
+
+#special {
+    color: rgb(194, 214, 12);
+}
