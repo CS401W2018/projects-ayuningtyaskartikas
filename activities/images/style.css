@@ -6,7 +6,13 @@ body {
 }
 
 header {
-    
+    background-image: url('pikachu.png');
+    background-repeat: no-repeat;
+    background-position: 250px;
+}
+
+.mylist {
+    list-style-image: url('pokemon3.png');
 }
 
 .color {
