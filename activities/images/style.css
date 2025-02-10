@@ -1,0 +1,26 @@
+body { 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    background: url('backgroundTosca.png') #ffffff;
+    color: #ffffff;
+}
+
+header {
+    
+}
+
+.color {
+    color: rgb(255, 255, 255);
+}
+
+footer p {
+    color: #ffffff;
+}
+
+#special {
+    color: rgb(194, 214, 12);
+}
+
+.pic {
+    width: 250px;
+}
