@@ -1,0 +1,24 @@
+body { 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    background: url('backgroundok.jpg') #ffffff;
+    color: #ffffff;
+}
+
+header {
+    background-image: url('pikachu.png');
+    background-repeat: no-repeat;
+    background-position: 300px;
+}
+
+.mylist {
+    list-style-image: url('sunflower.png');
+}
+
+.color {
+    color: rgb(255, 255, 255);
+}
+
+footer p {
+    color: #ffffff;
+}
