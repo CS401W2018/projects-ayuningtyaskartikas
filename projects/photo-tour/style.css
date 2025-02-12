@@ -11,6 +11,19 @@ header {
     background-position: right;
 }
 
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color:yellow;
+}
+
+a:visited {
+    color:yellow;
+}
+
 .mylist {
     list-style-image: url('sunflower.png');
 }
