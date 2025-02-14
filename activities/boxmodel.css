@@ -1,0 +1,50 @@
+body { 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    color: #0e0d0d;
+}
+
+header {
+    background-color : rgb(75, 196, 139);
+    width : 300px;
+    padding : 50px;
+    margin : auto;
+    text-align: center;
+}
+
+header h1 {
+    border : 5px dashed #000000;
+    text-align : center;
+}
+
+.bulb {
+    width: 300px;
+    border: thin solid #000000;
+    text-align: center;
+    margin: 10px auto;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:hover {
+    color:yellow;
+}
+
+a:visited {
+    color:yellow;
+}
+
+.mylist {
+    list-style-image: url('sunflower.png');
+}
+
+.color {
+    color: rgb(0, 0, 0);
+}
+
+footer p {
+    color: #000000;
+}
