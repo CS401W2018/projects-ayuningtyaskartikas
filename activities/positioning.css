@@ -30,7 +30,7 @@ nav a {
 
 header {
     background-color : rgb(75, 196, 139);
-    width : 300px;
+    width : 100%;
     padding : 50px;
     margin : auto;
     text-align: center;
