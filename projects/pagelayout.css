@@ -5,10 +5,31 @@ body {
     background-color : rgb(75, 196, 139);
 }
 
+#wrapper {
+    width: 600px;
+    background-color: #ffffff;
+    margin: auto;
+    padding: 10px 10px 10px 10px;
+}
+
+header h1 {
+    border : 5px dashed #000000;
+    text-align : center;
+}
+
+
 nav a {
-    display: block;
-    padding: 5px 5px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+nav a:hover {
     border-bottom: thin;
+    color:yellow;
+}
+
+a:visited {
+    color:yellow;
 }
 
 .bulb {
@@ -31,15 +52,9 @@ nav a {
 
 header {
     background-color : rgb(75, 196, 139);
-    width : 100%;
     padding : 50px;
     margin : auto;
     text-align: center;
-}
-
-header h1 {
-    border : 5px dashed #000000;
-    text-align : center;
 }
 
 .bulb {
@@ -47,19 +62,6 @@ header h1 {
     border: thin solid #000000;
     text-align: center;
     margin: 10px auto;
-}
-
-nav a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-}
-
-a:hover {
-    color:yellow;
-}
-
-a:visited {
-    color:yellow;
 }
 
 .mylist {
