@@ -22,10 +22,11 @@ header h1 {
 
 
 nav a {
-    color: rgb(245, 11, 11);
+    color: yellow;
     text-decoration: none;
-    background-color: yellow;
+    background-color: rgb(245, 11, 11);
     font-style: italic;
+    font-family: fantasy;
     border-radius: 45%;
     padding: 5px;
     border: thin solid #000000;
@@ -33,8 +34,8 @@ nav a {
 
 nav a:hover {
     border-bottom: thin;
-    color:yellow;
-    background-color: rgb(245, 11, 11);
+    color: rgb(245, 11, 11);
+    background-color: yellow;
     font-style: italic;
     font-family: fantasy;
 }
@@ -52,6 +53,11 @@ a:visited {
 
 .bulb img {
     width: 100%;
+}
+
+main {
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 .clear {
