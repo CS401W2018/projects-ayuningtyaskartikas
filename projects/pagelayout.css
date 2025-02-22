@@ -41,11 +41,6 @@ nav a:hover {
     font-family: fantasy;
 }
 
-a:visited {
-    color:rgb(245, 11, 11);
-    background-color: yellow;
-}
-
 .bulb {
     width: 250px;
     border: thin solid #000000;
