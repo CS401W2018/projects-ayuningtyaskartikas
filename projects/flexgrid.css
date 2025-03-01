@@ -77,15 +77,16 @@ main {
 }
 
 .profile-card {
-    border: thin #000000;
-    background-color: #e4e4e4;
-    padding: 15px;
+    background-color: #aed6e6;
+    padding: 10px;
     text-align: center;
-    border: 1px solid #ddd;
+    border: 1px solid #978585;
 }
 
 .profile-card img {
     width: 100%;
+    padding: 0;
+    margin: 0;
     height: 100px;
     object-fit: cover;
 }
@@ -96,7 +97,7 @@ main {
 
 .parent-footer {
     display: grid;
-    grid-template-columns: repeat(5, 1fr); /* 5 columns */
+    grid-template-columns: repeat(5, 1fr); 
 }
 
 .parent-footer a {
