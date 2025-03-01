@@ -1,0 +1,121 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+    line-height: normal;
+    color: #0e0d0d;
+    background-color: rgb(255, 255, 255);
+}
+
+html,body {
+    margin: 0; 
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    background-image: url('toscabg.jpg');
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    width: 100%;
+    padding: 0;
+    text-align: left;
+    color: rgb(0, 0, 0);
+}
+
+header h1 {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.parentnav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color : rgb(26, 32, 29);
+    padding: 10px;
+}
+
+.childnav {
+    display: flex;
+    text-decoration: none;
+    padding: 10px;
+    color: yellow;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(245, 11, 11);
+    border: thin solid #000000;
+    text-align: center;
+}
+
+nav a:hover {
+    color: rgb(245, 11, 11);
+    background-color: yellow;
+    border-bottom: 2px solid black;
+    font-style: italic;
+}
+
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.sidebar {
+    width: 30%;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.parentmain {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.profile-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 20px;
+}
+
+.profile-card {
+    background-color: #e4e4e4;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.profile-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.profile-card h3 {
+    margin-top: 10px;
+}
+
+.footer-links {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 columns */
+}
+
+.footer-links a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+}
+
+footer {
+    background-color : rgb(26, 32, 29);
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
