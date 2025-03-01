@@ -58,7 +58,7 @@ nav a:hover {
 }
 
 .sidebar {
-    width: 30%;
+    width: 100px;
     background-color: #aed6e6;
     padding: 20px;
 }
