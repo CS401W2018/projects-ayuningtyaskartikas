@@ -10,18 +10,21 @@ body {
 
 .container {
     display: flex;
-    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
 }
 
 .wrapper-sidebar {
     display: flex;
-    padding: 15px;
+    width: 100%;
 }
 
 .sidebar {
     width: 25%;
     background-color: #8bbbce;
     padding: 20px;
+    margin-right: 20px;
 }
 
 .sidebar figure {
@@ -34,7 +37,7 @@ body {
 
 main {
     margin-left: 20px;
-    width: auto;
+    width: 70%;
 }
 
 main h2 {
@@ -43,7 +46,8 @@ main h2 {
 
 .row {
     display: flex;
-    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 nav {
@@ -97,6 +101,8 @@ header h1 {
 
 footer p {
     margin-left: 20px;
+    text-align: center;
+    padding: 5px;
 }
 
 @media ONLY screen AND (max-width : 600px) {
@@ -124,5 +130,31 @@ footer p {
     .wrapper-sidebar {
         display: flex;
         align-self: flex-end;
+    }
+
+    .mainorder {
+        order: -1
+    }
+}
+
+@media print {
+    nav {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+
+    .wrapper-sidebar {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
+    main {
+        width: 100%;
     }
 }
