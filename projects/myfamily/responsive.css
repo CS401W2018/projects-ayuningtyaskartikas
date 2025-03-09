@@ -7,8 +7,32 @@ body {
     margin: 0;
 }
 
+.wrapper-sidebar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.sidebar {
+    width: 25%;
+    background-color: #8bbbce;
+    padding: 20px;
+}
+
+.sidebar figure {
+    margin: 0;
+}
+
+.sidebar img {
+    width: 100%;
+}
+
 main {
     margin-left: 20px;
+}
+
+main h2 {
+    text-align: center;
 }
 
 .row {
@@ -20,7 +44,7 @@ main {
 nav {
     display: flex;
     justify-content: space-evenly;
-    background-color: #b467e7;
+    background-color: #2b7d96;
 }
 
 nav a {
@@ -36,7 +60,7 @@ nav a:hover {
 }
 
 header {
-    background-color: #360c52;
+    background-color: #05444d;
     color: rgb(255, 255, 255);
     margin: 0;
     padding: 10px;
@@ -78,6 +102,7 @@ footer p {
     .feature {
         order: -1;
     }
+
 }
 
 @media ONLY screen AND (max-width : 450px) {

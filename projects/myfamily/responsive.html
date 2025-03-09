@@ -3,59 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width", initial-sclae="1.0">
-    <title>Responsize Page</title>
+    <title>My Family Page</title>
     <link rel="stylesheet" href="responsive.css" media="screen">
     <link rel="stylesheet" href="print.css" media="print">
 </head>
 <body>
     <header>
-        <h1>Web Design</h1>
+        <h1>My Family Page</h1>
     </header>
+
     <nav>
         <a href="#">Link</a> <a href="#">Link</a>
         <a href="#">Link</a> <a href="#">Link</a>
+        <a href="#">Link</a>
     </nav>
-    <main>
-        <h2>Responsive Pages</h2>
-        <div class="row">
-            <div class="card">
-                <figure>
-                    <img src="bulbasaur.jpg" alt="bulbasaur">
-                </figure>
-                <h3>Left</h3>
-                <p>Some text...</p>
-            </div>
-            <div class="card feature">
-                <figure>
-                    <img src="charmander.png" alt="charmander">
-                </figure>
-                <h3>Middle</h3>
-                <p>Some text...</p>
-            </div>
-            <div class="card">
-                <figure>
-                    <img src="bulbasaur.jpg" alt="bulbasaur">
-                </figure>
-                <h3>Right</h3>
-                <p>Some text...</p>
-            </div>
-        </div>
-        <div class="wrapper">
-            <h4>Why is the viewport meta tag important?</h4>
-            <p>>> This to make that the responsive stuffs that we created will work.</p>
-            <h4>How can you adjust the CSS for printing?</h4>
-            <p>>> By adding the print css file to the link rel stylesheet.</p>
-            <h4>When would you want to adjust the CSS for printing?</h4>
-            <p>>> When we think that the user will likely to print out the page, for example like article.</p>
-            <h4>Why do we need a viewport meta tag?</h4>
-            <p>>> mobile page first, when we created a website think to make it convenient for mobile users first, because most of our users are mobile users. </p>
-            <h4>When you select the same tag twice, and in one of them you say "flex-direction: column;" and the other says "flex-direction: row;", which one takes priority?</h4>
-            <p>>> the one that come last. </p>
-            <h4>How do you change the CSS for a web page displayed on a phone?</h4>
-            <p>>> by adding the @media ONLY screen AND (put the max width we want)</p>
-        </div>
 
-    </main>
+    <div class="wrapper-sidebar">
+        <aside class="sidebar featureside">
+            <figure>
+                <img src="familyinsideout.jpg" alt="Family Inside Out">
+            </figure>
+            <caption>Inside Out Family</caption>
+            <h3>Fun facts about this family :</h3>
+            <ul>
+                <li><p>They love to do silly things together</p></li>
+                <li><p>They love to try new things</p></li>
+                <li><p>They love taking pictures and capture memories</p></li>
+            </ul>
+        </aside>
+
+        <main>
+            <article>
+                <h2>Here is the family members</h2>
+                <div class="row">
+                    <div class="card">
+                        <figure>
+                            <img src="dadinsideout.jpg" alt="Mr Andersen">
+                        </figure>
+                        <h3>Bill Andersen</h3>
+                        <p>Bill Andersen is a dedicated father and husband, with family as his top priority. He is a hardworking and disciplined man, but he gets frustrated easily when things don't go according to plan. Although he is quick to show his anger, he is also understanding and takes the time to comfort his daughter, Riley, when she is upset. Bill is a man who truly cares about his family, and is also funny.</p>
+                    </div>
+                    <div class="card feature">
+                        <figure>
+                            <img src="rileyinsideout.jpg" alt="Riley Andersen">
+                        </figure>
+                        <h3>Riley Andersen</h3>
+                        <p>Riley used to be a happy and silly child, but as she entered her pre-teen years, she began to feel more insecure and inferior. Her move to San Francisco made her feel even lonelier, and she found it difficult to deal with her emotions. The change was overwhelming, but over time, she learned to open up and express her emotions to her family, which eventually helped her accept the changes in her life..</p>
+                    </div>
+                    <div class="card">
+                        <figure>
+                            <img src="mominsideout.jpg" alt="Mrs Andersen">
+                        </figure>
+                        <h3>Jill Andersen</h3>
+                        <p>Jill is a loving and caring mother, always looking out for her family. Although she can be frustrated by her husband's cluelessness, she still loves him and tries her best to support her daughter, Riley. Jill's compassion and ability to empathize with others comes from her deep understanding of emotions, perhaps shaped by her own experiences. She is always there for the people she loves.</p>
+                    </div>
+                </div>
+            </article>
+
+        </main>
+    </div>
 </body>
 <hr>
 <footer>
