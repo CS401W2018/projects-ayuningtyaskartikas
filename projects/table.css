@@ -1,0 +1,98 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    font-weight: 300;
+    line-height: normal;
+    color: #0e0d0d;
+    margin: 0;
+    width: 100%;
+}
+
+main {
+    margin-left: 20px;
+    width: 70%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #2b7d96;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    color: #ffffff;
+
+}
+
+nav a:hover {
+    color: #ffd900;
+}
+
+header {
+    background-color: #05444d;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 10px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+footer {
+    background-color: #05444d;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 10px;
+}
+
+footer p {
+    margin-left: 20px;
+    text-align: center;
+    padding: 5px;
+}
+
+.sidebar {
+    width: 25%;
+    background-color: #cfb623;
+    padding: 20px;
+    margin: 10px;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.feature {
+    order: 1;
+}
+
+/* style for the table*/
+table {
+    margin-top: 30px;
+}
+
+.schedule {
+    border: 1px solid #000;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.schedule th, .schedule td {
+    /*border: thin solid #000;*/
+    padding: 3px;
+}
+
+.schedule thead th {
+    background-color: #0f6347;
+    color: white;
+}
+
+.schedule tfoot th, .schedule tfoot td {
+    background-color: #0f6347;
+    color: white;
+}
