@@ -19,7 +19,8 @@
 
     <div class="wrapper">
         <aside class="sidebar feature">
-            <h3>World Ranking 2025 Updates</h3>
+            <h3>Table Tennis World Ranking 2025 Updates</h3>
+            <p>The table contains data of:</p>
             <ul>
                 <li><p>Top 3 Men Single Player</p></li>
                 <li><p>Top 3 Women Single Player</p></li>
@@ -28,11 +29,15 @@
 
         <main>
             <table class="schedule">
-                <caption>TOP 3 Table Tennis World Ranking 2025</caption>
+                <caption id="caption">TOP 3 Table Tennis World Ranking 2025</caption>
                 <thead>
                     <tr>
+                        <th rowspan="2">2025</th>
+                        <th colspan="5">Single Player</th>
+                    </tr>
+                    <tr>
                         <th>Ranking</th>
-                        <th>Player</th>
+                        <th>Name</th>
                         <th>Age</th>
                         <th>Style</th>
                         <th>Points</th>
@@ -40,7 +45,7 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <th colspan="5">Men</th>
+                        <th rowspan="4" id="men">Men</th>
                     </tr>
                     <tr>
                         <td>#1</td>
@@ -63,8 +68,8 @@
                         <td>Right Hand</td>
                         <td>5425</td>
                     </tr>
-                    <tr>
-                        <th colspan="5">Women</th>
+                    <tr id="women">
+                        <th rowspan="4">Women</th>
                     </tr>
                     <tr>
                         <td>#1</td>
