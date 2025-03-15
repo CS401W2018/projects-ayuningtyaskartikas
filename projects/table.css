@@ -80,16 +80,18 @@ table {
     color: #000;
 }
 
+#odd {
+    background-color: #292929;
+}
+
+#even {
+    background-color: #5e5a5a;
+}
+
 .schedule {
     border-spacing: 0;
     border-collapse: collapse;
-    background-color: #292929;
     color: white;
-    border: 1px solid #000;
-}
-
-.schedule thead th {
-    border: 1px solid #000;
 }
 
 .schedule th, .schedule td {
@@ -104,13 +106,11 @@ table {
 #women {
     background-color: #ac0b25;
     color: white;
-    border: 1px solid #000;
 }
 
 #men {
     background-color: #1a097e;
     color: white;
-    border: 1px solid #000;
 }
 
 .schedule tfoot th, .schedule tfoot td {
