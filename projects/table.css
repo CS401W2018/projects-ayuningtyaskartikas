@@ -9,8 +9,10 @@ body {
 }
 
 main {
+    display: block;
+    align-self: center;
     margin-left: 20px;
-    width: 70%;
+    width: 75%;
 }
 
 nav {
@@ -114,6 +116,6 @@ table {
 }
 
 .schedule tfoot th, .schedule tfoot td {
-    background-color: #0f6347;
+    background-color:#8a820f;
     color: white;
 }
