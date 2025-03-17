@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css" media="screen">
+    <link rel="stylesheet" href="print.css" media="print">
+</head>
+<body>
+    <header>
+        <h1>Forms</h1>
+    </header>
+    <nav>
+        <a href="#">Link</a> <a href="#">Link</a>
+        <a href="#">Link</a> <a href="#">Link</a>
+        <a href="#">Link</a>
+    </nav>
+        <main>
+            <form action="processing.html" method="get">
+                <div class="form-row">
+                    <label for="fname">Full Name:</label> 
+                    <input type="text" name="fullname" id="fname">
+                </div>
+                <div class="form-row">
+                    <label for="fname">Email:</label> 
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="form-row">
+                    <label for="password">Password:</label> 
+                    <input type="password" name="password" id="password">
+                </div>
+                <div class="form-row">
+                    <input type="submit">
+                </div>
+            </form>
+
+            <h4>The form tag has an "action" attribute. What does it do?</h4>
+            <p>>> The form action attribute showing what page that going to be shown after the user submit their inputs.</p>
+            <h4>The form tag has a "method" attribute. What does it do?</h4>
+            <p>>> The method meaning what method that we are going to use for request data from the user, there are two type of method : get and post.</p>
+            <h4>What is the difference between a "POST" and a "GET"?</h4>
+            <p>>> The get request means that what user input going to show in the URL, while the post request not. When we wan to do data search we use get request. </p>
+        </main>
+</body>
+
+<footer>
+    <p>&copy; Ayu Ningtyas Kartika Sari, 2025</p>
+</footer>
+</html>
