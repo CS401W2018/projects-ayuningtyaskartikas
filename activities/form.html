@@ -17,52 +17,55 @@
         <a href="#">Link</a>
     </nav>
         <main>
-            <form action="processing.html" method="get">
-                <div class="form-row">
-                    <label for="fname">Full Name:</label> 
-                    <input type="text" name="fullname" id="fname">
-                </div>
-                <div class="form-row">
-                    <label for="fname">Email:</label> 
-                    <input type="email" name="email" id="email" placeholder="yourname@gmail.com">
-                </div>
-                <div class="form-row">
-                    <label for="password">Password:</label> 
-                    <input type="password" name="password" id="password" required minlength="8">
-                </div>
-                <div class="form-row">
-                    <label for="state">State:</label> 
-                    <select name="state" id="state">
-                        <option value="CO">Colorado</option>
-                        <option value="HI">Hawaii</option>
-                        <option value="UT">Utah</option>
-                    </select>
-                </div>
-                <div class="radio-row">
-                    <div class="form-spacer">Year in School:</div>
-                    <label><input type="radio" name="year" value="freshman">Freshman</label>
-                    <label><input type="radio" name="year" value="sophomore">Sophomore</label> 
-                    <label><input type="radio" name="year" value="junior">Junior</label> 
-                    <label><input type="radio" name="year" value="senior">Senior</label>  
-                </div>
-                <div class="radio-row">
-                    <div class="form-spacer"></div>
-                    <label><input type="checkbox" name="remember" id="remember"> Remember Me</label>
-                </div>
-                <div class="form-row">
-                    <label for="comments">Comments:</label>
-                    <textarea name="comments" id="comments">Previous comment</textarea>
-                </div>
-                <div class="form-row">
-                    <div class="form-spacer"></div>
-                    <input type="submit">
-                </div>
-            </form>
+            <fieldset>
+                <legend>Create Account</legend>
+                <form action="processing.html" method="get">
+                    <div class="form-row">
+                        <label for="fname">Full Name:</label> 
+                        <input type="text" name="fullname" id="fname">
+                    </div>
+                    <div class="form-row">
+                        <label for="fname">Email:</label> 
+                        <input type="email" name="email" id="email" placeholder="yourname@gmail.com">
+                    </div>
+                    <div class="form-row">
+                        <label for="password">Password:</label> 
+                        <input type="password" name="password" id="password" required minlength="8">
+                    </div>
+                    <div class="form-row">
+                        <label for="state">State:</label> 
+                        <select name="state" id="state">
+                            <option value="CO">Colorado</option>
+                            <option value="HI">Hawaii</option>
+                            <option value="UT">Utah</option>
+                        </select>
+                    </div>
+                    <div class="radio-row">
+                        <div class="form-spacer">Year in School:</div>
+                        <label><input type="radio" name="year" value="freshman">Freshman</label>
+                        <label><input type="radio" name="year" value="sophomore">Sophomore</label> 
+                        <label><input type="radio" name="year" value="junior">Junior</label> 
+                        <label><input type="radio" name="year" value="senior">Senior</label>  
+                    </div>
+                    <div class="radio-row">
+                        <div class="form-spacer"></div>
+                        <label><input type="checkbox" name="remember" id="remember"> Remember Me</label>
+                    </div>
+                    <div class="form-row">
+                        <label for="comments">Comments:</label>
+                        <textarea name="comments" id="comments">Previous comment</textarea>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-spacer"></div>
+                        <input type="submit">
+                    </div>
+                </form>
+            </fieldset>
 
             <h4>What are different ways to style your form?</h4>
-            <p>>> </p>
+            <p>>> Use CSS  </p>
             <h4>Why does the professor like to use flex?</h4>
-            <p>>> He really likes to use flex because it allows elements so it can displayed side by side.</p>
+            <p>>> He really likes to use flex because it allows elements so it can displayed side by side. Another reason is because using flex, just adding little bit of css can make the page mobile user friendly.</p>
             <h4>The form tag has an "action" attribute. What does it do?</h4>
             <p>>> The form action attribute showing what page that going to be shown after the user submit their inputs.</p>
             <h4>The form tag has a "method" attribute. What does it do?</h4>

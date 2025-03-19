@@ -8,6 +8,12 @@ body {
     width: 100%;
 }
 
+legend {
+    background-color: #f3d216;
+    color: white;
+    padding: 5px;
+}
+
 .form-row {
     display: flex;
     gap: 10px;
@@ -83,4 +89,33 @@ footer p {
 
 .form-row {
     padding-bottom: 10px;
+}
+
+.form-row input:not([type="submit"]):focus {
+    background-color: #ecd656;
+}
+
+.form-row select:focus {
+    background-color: #ecd656;
+}
+
+.form-row input:not([type="submit"]) {
+    padding: 5px 10px;
+}
+
+.form-row input[type="submit"] {
+    padding: 10px;
+    background-color: #f7d932;
+    border-radius: 20px;
+}
+
+@media ONLY screen AND (max-width: 600PX) {
+    .form-row {
+        flex-direction: column;
+    }
+
+    .form-row label {
+        text-align: left;
+    }
+
 }
