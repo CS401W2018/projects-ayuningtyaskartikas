@@ -33,6 +33,19 @@
                         <input type="email" name="email" id="email" placeholder="yourname@gmail.com">
                     </div>
                     <div class="form-row">
+                        <label for="phone">Phone Number:</label>
+                        <select name="extension" id="extension">
+                            <option value="US">+1</option>
+                            <option value="IDN">+62</option>
+                            <option value="JP">+81</option>
+                            <option value="KR">+82</option>
+                            <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="datebirth">Date of Birth:</label>
+                        <input type="date" id="datebirth" name="datebirth" required>
+                    </div>
+                    <div class="form-row">
                         <label for="password">Password:</label> 
                         <input type="password" name="password" id="password" required minlength="8">
                     </div>

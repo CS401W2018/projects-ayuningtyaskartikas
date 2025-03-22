@@ -14,6 +14,11 @@ legend {
     padding: 5px;
 }
 
+fieldset {
+    background-color: #000000;
+    color: white;
+}
+
 .form-row {
     display: flex;
     gap: 10px;
