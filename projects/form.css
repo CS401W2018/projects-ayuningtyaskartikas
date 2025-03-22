@@ -130,4 +130,9 @@ footer p {
         text-align: left;
     }
 
+    .radio-row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
 }
