@@ -9,7 +9,7 @@ body {
 }
 
 legend {
-    background-color: #f3d216;
+    background-color: #f33016;
     color: white;
     padding: 5px;
 }
@@ -95,6 +95,10 @@ footer p {
     background-color: #ecd656;
 }
 
+.form-row input[type="submit"]:hover {
+    background-color: #f7d932;
+}
+
 .form-row select:focus {
     background-color: #ecd656;
     border-radius: 15px;
@@ -107,7 +111,8 @@ footer p {
 
 .form-row input[type="submit"] {
     padding: 10px;
-    background-color: #f7d932;
+    background-color: #f33016;
+    color: white;
     border-radius: 20px;
 }
 

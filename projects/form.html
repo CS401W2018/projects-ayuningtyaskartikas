@@ -18,42 +18,52 @@
     </nav>
         <main>
             <fieldset>
-                <legend>Create Account</legend>
+                <legend>Pokemon Go Login Form</legend>
                 <form action="processing.html" method="get">
                     <div class="form-row">
-                        <label for="fname">Full Name:</label> 
-                        <input type="text" name="fullname" id="fname">
+                        <label for="fname">First Name:</label> 
+                        <input type="text" name="firstname" id="fname">
                     </div>
                     <div class="form-row">
-                        <label for="fname">Email:</label> 
+                        <label for="fname">Last Name:</label> 
+                        <input type="text" name="lastname" id="lname">
+                    </div>
+                    <div class="form-row">
+                        <label for="email">Email:</label> 
                         <input type="email" name="email" id="email" placeholder="yourname@gmail.com">
                     </div>
                     <div class="form-row">
                         <label for="password">Password:</label> 
                         <input type="password" name="password" id="password" required minlength="8">
                     </div>
+                    </div>
                     <div class="form-row">
-                        <label for="city">City:</label> 
-                        <select name="city" id="city">
-                            <option value="LI">Laie</option>
-                            <option value="HNL">Honolulu</option>
-                            <option value="WA">Waikiki</option>
+                        <label for="verifypassword">Verify Password:</label> 
+                        <input type="password" name="verifypassword" id="verifypassword" required minlength="8">
+                    </div>
+                    <div class="form-row">
+                        <label for="country">Country:</label> 
+                        <select name="country" id="country">
+                            <option value="USA">United States</option>
+                            <option value="IDN">Indonesia</option>
+                            <option value="JP">Japan</option>
+                            <option value="KR">Korea</option>
                         </select>
                     </div>
                     <div class="radio-row">
-                        <div class="form-spacer">Year in School:</div>
-                        <label><input type="radio" name="year" value="freshman">Freshman</label>
-                        <label><input type="radio" name="year" value="sophomore">Sophomore</label> 
-                        <label><input type="radio" name="year" value="junior">Junior</label> 
-                        <label><input type="radio" name="year" value="senior">Senior</label>  
+                        <div class="form-spacer">Choose your Pokemon:</div>
+                        <label><input type="radio" name="pokemon" value="Bulbasaur">Bulbasaur</label>
+                        <label><input type="radio" name="pokemon" value="Pikachu">Pikachu</label> 
+                        <label><input type="radio" name="pokemon" value="Charmender">Charmender</label> 
+                        <label><input type="radio" name="pokemon" value="Eeve">Eeve</label>  
                     </div>
                     <div class="radio-row">
                         <div class="form-spacer"></div>
-                        <label><input type="checkbox" name="remember" id="remember"> Remember Me</label>
+                        <label><input type="checkbox" name="terms" id="terms"> By click this, I agree with the terms and conditions</label>
                     </div>
                     <div class="form-row">
-                        <label for="comments">Comments:</label>
-                        <textarea name="comments" id="comments">Previous comment</textarea>
+                        <label for="bio">My Short Bio:</label>
+                        <textarea name="bio" id="bio">my bio</textarea>
                     </div>
                     <div class="form-row">
                         <div class="form-spacer"></div>
