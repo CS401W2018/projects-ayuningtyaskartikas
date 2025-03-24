@@ -19,13 +19,17 @@
         <main>
             <fieldset>
                 <legend>Create Account</legend>
-                <form action="processing.html" method="get">
+                <form action="processing.html" method="get" id="myform">
                     <div class="form-row">
                         <label for="fname">Full Name:</label> 
                         <input type="text" name="fullname" id="fname">
                     </div>
                     <div class="form-row">
-                        <label for="fname">Email:</label> 
+                        <label for="age">Age:</label> 
+                        <input type="number" name="age" id="age">
+                    </div>
+                    <div class="form-row">
+                        <label for="email">Email:</label> 
                         <input type="email" name="email" id="email" placeholder="yourname@gmail.com">
                     </div>
                     <div class="form-row">
@@ -42,10 +46,10 @@
                     </div>
                     <div class="radio-row">
                         <div class="form-spacer">Year in School:</div>
-                        <label><input type="radio" name="year" value="freshman">Freshman</label>
-                        <label><input type="radio" name="year" value="sophomore">Sophomore</label> 
-                        <label><input type="radio" name="year" value="junior">Junior</label> 
-                        <label><input type="radio" name="year" value="senior">Senior</label>  
+                        <label><input type="radio" name="year" value="freshman" id="year">Freshman</label>
+                        <label><input type="radio" name="year" value="sophomore" id="year">Sophomore</label> 
+                        <label><input type="radio" name="year" value="junior" id="year">Junior</label> 
+                        <label><input type="radio" name="year" value="senior" id="year">Senior</label>  
                     </div>
                     <div class="radio-row">
                         <div class="form-spacer"></div>
@@ -62,20 +66,53 @@
                 </form>
             </fieldset>
 
-            <h4>What are different ways to style your form?</h4>
-            <p>>> Use CSS  </p>
-            <h4>Why does the professor like to use flex?</h4>
-            <p>>> He really likes to use flex because it allows elements so it can displayed side by side. Another reason is because using flex, just adding little bit of css can make the page mobile user friendly.</p>
-            <h4>The form tag has an "action" attribute. What does it do?</h4>
-            <p>>> The form action attribute showing what page that going to be shown after the user submit their inputs.</p>
-            <h4>The form tag has a "method" attribute. What does it do?</h4>
-            <p>>> The method meaning what method that we are going to use for request data from the user, there are two type of method : get and post.</p>
-            <h4>What is the difference between a "POST" and a "GET"?</h4>
-            <p>>> The get request means that what user input going to show in the URL, while the post request not. When we wan to do data search we use get request. </p>
+            <h4>What is JavaScript? How did it get its name?</h4>
+            <p>>> There were two big companies (Sun Microsystem and Microsoft) that trying to control the websites. Sun Microsystem is the company that created Java language, and they created java script so people understand that it is also owned by Sun Microsoft.</p>
+            <h4>What are the two ways you can run JavaScript?</h4>
+            <p>>> DOM (Document object module), node js, express.js </p>
+            <h4>What was the most popular front-end js library?</h4>
+            <p>>> back in the day jQuery is the most popular js library. That really famous now is React.js, this made by Meta. React Native also one of the js library that famous today.</p>
+            <h4>What is the most popular front-end js library today?</h4>
+            <p>>> EMCAscript</p>
         </main>
 </body>
 
 <footer>
     <p>&copy; Ayu Ningtyas Kartika Sari, 2025</p>
 </footer>
+<script>
+    document.getElementById("myform").addEventListener('submit',function(event) {
+        event.preventDefault();
+        //alert("Form submitted");
+        const fullname = document.getElementById("fname").value;
+        console.log(fullname);
+        const age = document.getElementById("age").value;
+        console.log(age);
+        const email = document.getElementById("email").value;
+        console.log(email);
+        const password = document.getElementById("password").value;
+        console.log(password);
+        const state = document.getElementById("state").value;
+        console.log(state);
+        const yearSchool = document.getElementById("")
+
+        if (!fullname || !email) {
+            alert("You need a name and email.");
+            return;
+        }
+
+        if (!age || age<18) {
+            alert("You need to be 18.");
+            return;
+        }
+
+        const formdata = {
+            name: fullname,
+            age: age,
+            email: email,
+            password: password,
+            state: state,
+        }
+    });
+</script>
 </html>
