@@ -66,6 +66,10 @@
                 </form>
             </fieldset>
 
+            <h4>What is AJAX?</h4>
+            <p>>> AJAX ( Asynchronous JavaScript And XML), it is basically used to transfer data. 4 Steps that it does :  1. prevent the default after submit a form, 2. collect the data, 3. JS send the data to the server, 4. the server send back the data to the page (the page updated)</p>
+            <h4>Why do you put your JS Code in a separate file?</h4>
+            <p>>> it's better to separate it so if we want to make changes to the js, we not going to accidentely change the html. Make each file separate is better for complex project. </p>
             <h4>What is JavaScript? How did it get its name?</h4>
             <p>>> There were two big companies (Sun Microsystem and Microsoft) that trying to control the websites. Sun Microsystem is the company that created Java language, and they created java script so people understand that it is also owned by Sun Microsoft.</p>
             <h4>What are the two ways you can run JavaScript?</h4>
@@ -76,43 +80,8 @@
             <p>>> EMCAscript</p>
         </main>
 </body>
-
 <footer>
     <p>&copy; Ayu Ningtyas Kartika Sari, 2025</p>
 </footer>
-<script>
-    document.getElementById("myform").addEventListener('submit',function(event) {
-        event.preventDefault();
-        //alert("Form submitted");
-        const fullname = document.getElementById("fname").value;
-        console.log(fullname);
-        const age = document.getElementById("age").value;
-        console.log(age);
-        const email = document.getElementById("email").value;
-        console.log(email);
-        const password = document.getElementById("password").value;
-        console.log(password);
-        const state = document.getElementById("state").value;
-        console.log(state);
-        const yearSchool = document.getElementById("")
-
-        if (!fullname || !email) {
-            alert("You need a name and email.");
-            return;
-        }
-
-        if (!age || age<18) {
-            alert("You need to be 18.");
-            return;
-        }
-
-        const formdata = {
-            name: fullname,
-            age: age,
-            email: email,
-            password: password,
-            state: state,
-        }
-    });
-</script>
+<script src="form.js"></script>
 </html>
