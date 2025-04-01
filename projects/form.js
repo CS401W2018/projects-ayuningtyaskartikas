@@ -25,11 +25,6 @@ document.getElementById("myform").addEventListener('submit',function(event) {
         return;
     }
 
-    if (!age || age<18) {
-        alert("You need to be at least 18.");
-        return;
-    }
-
     const formData = {
         fname: firstN,
         lname: lastN,
