@@ -20,8 +20,8 @@ document.getElementById("myform").addEventListener('submit',function(event) {
     const pokemon = document.getElementById("pokemon").value;
     console.log(pokemon);
 
-    if (!fullname || !email) {
-        alert("You need a name and email.");
+    if (!email) {
+        alert("You need an email.");
         return;
     }
 
