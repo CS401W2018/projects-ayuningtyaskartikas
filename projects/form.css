@@ -138,4 +138,10 @@ footer p {
         flex-wrap: wrap;
     }
 
+    .form-row select {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: left;
+    }
+
 }
