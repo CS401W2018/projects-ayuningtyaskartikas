@@ -16,18 +16,33 @@ body {
     padding: 15px;
 }
 
+.wrapper-sidebar {
+    display: flex;
+    width: 100%;
+}
+
+.sidebar {
+    width: 25%;
+    background-color: #f0f3bd;
+    padding: 20px;
+    margin-right: 10px;
+}
+
+.sidebar figure {
+    margin: 0;
+}
+
+.sidebar img {
+    width: 100%;
+}
+
 main {
+    margin-left: 20px;
     width: 100%;
 }
 
 main h2 {
     text-align: center;
-}
-
-.wrapper {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
 }
 
 .row {
@@ -40,34 +55,19 @@ nav {
     display: flex;
     justify-content: space-evenly;
     background-color: #22577a;
-    padding-top: 20px;
-}
-  
-/* Style the links using navbar class */
-.navbar a {
-    color: #ffffff;
-    float: left;
-    display: block;
-    text-align: center;
-    padding: 14px 40px;
-    text-decoration: none;
-    border-bottom: 3px solid transparent;
-}
-  
-.navbar a:hover {
-    border-bottom: 4px solid rgb(209, 171, 1);
-}
-  
-.navbar a:active {
-    border-bottom: 4px solid rgb(209, 171, 1);
+    padding: 20px;
 }
 
-.navbar a[href="history.html"]:not(:hover):active,
-.navbar a[href="menu.html"]:(:hover):active,
-.navbar a[href="recipes.html"]:not(:hover):active,
-.navbar a[href="musttry.html"]:not(:hover):active,
-.navbar a[href="order.html"]:not(:hover):active {
-    border-bottom: 4px solid rgb(209, 171, 1);
+nav a {
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    color: #ffffff;
+
+}
+
+nav a:hover {
+    color: #ffd900;
 }
 
 header {
@@ -121,14 +121,6 @@ footer p {
         flex-direction: column;
     }
 
-    nav {
-        flex-direction: column;
-    }
-
-    .wrapper img {
-        width: 100%;
-    }
-
     .row {
         flex-direction: column;
         align-items: center;
@@ -139,6 +131,16 @@ footer p {
         width: 100%;
         margin-bottom: 15px;
         justify-content: center;
+    }
+
+    .wrapper-sidebar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sidebar {
+        order: 2;
+        width: 100%;
     }
 
 }
@@ -156,13 +158,22 @@ footer p {
 
     nav {
         flex-direction: column;
-        justify-content: center;
     }
 
     .card {
         width: 100%;
         margin-bottom: 15px;
         justify-content: center;
+    }
+
+    .wrapper-sidebar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sidebar {
+        order: 2;
+        width: 100%;
     }
 
     
@@ -175,6 +186,14 @@ footer p {
 
     footer {
         display: none;
+    }
+
+    .wrapper-sidebar {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
     }
 
     main {
