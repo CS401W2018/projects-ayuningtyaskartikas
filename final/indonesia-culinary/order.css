@@ -24,6 +24,12 @@ main h2 {
     text-align: center;
 }
 
+.wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 .row {
     display: flex;
     justify-content: space-between;
@@ -36,23 +42,15 @@ nav {
     background-color: #22577a;
     padding-top: 20px;
 }
-
-nav a {
-    text-decoration: none;
-    display: block;
-    padding: 5px;
-    color: #ffffff;
-
-}
   
 /* Style the links using navbar class */
 .navbar a {
+    color: #ffffff;
     float: left;
     display: block;
     text-align: center;
     padding: 14px 40px;
     text-decoration: none;
-    font-size: 17px;
     border-bottom: 3px solid transparent;
   }
   
@@ -113,6 +111,14 @@ footer p {
 @media ONLY screen AND (max-width : 700px) {
     .container {
         flex-direction: column;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    .wrapper img {
+        width: 100%;
     }
 
     .row {
