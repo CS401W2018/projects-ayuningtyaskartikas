@@ -112,16 +112,6 @@ footer p {
         justify-content: center;
     }
 
-    .wrapper-sidebar {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .sidebar {
-        order: 2;
-        width: 100%;
-    }
-
 }
 
 @media ONLY screen AND (max-width : 500px) {
@@ -145,16 +135,6 @@ footer p {
         justify-content: center;
     }
 
-    .wrapper-sidebar {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .sidebar {
-        order: 2;
-        width: 100%;
-    }
-
     
 }
 
@@ -165,14 +145,6 @@ footer p {
 
     footer {
         display: none;
-    }
-
-    .wrapper-sidebar {
-        flex-direction: column;
-    }
-
-    .sidebar {
-        width: 100%;
     }
 
     main {
