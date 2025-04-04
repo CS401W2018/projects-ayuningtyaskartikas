@@ -16,28 +16,7 @@ body {
     padding: 15px;
 }
 
-.wrapper-sidebar {
-    display: flex;
-    width: 100%;
-}
-
-.sidebar {
-    width: 25%;
-    background-color: #f0f3bd;
-    padding: 20px;
-    margin-right: 10px;
-}
-
-.sidebar figure {
-    margin: 0;
-}
-
-.sidebar img {
-    width: 100%;
-}
-
 main {
-    margin-left: 20px;
     width: 100%;
 }
 
