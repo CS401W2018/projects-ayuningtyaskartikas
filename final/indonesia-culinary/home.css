@@ -25,10 +25,39 @@ main h2 {
     text-align: center;
 }
 
-.wrapper {
-    display: flex;
+.special {
+    margin-left: 20px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.floating {
+    float: right;
+}
+
+.indo img {
+    width: 100%;
     justify-content: center;
-    flex-wrap: wrap;
+    margin: 0 10px 0 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+.quote {
+    margin-left: 20px;
+    margin-right: 20px;
+    border: solid thick rgb(209, 171, 1);
+    padding: 20px;
+    border-radius: 10px;
+}
+.wrapper {
+    justify-content: center;
+    margin-bottom: 25px;
+    margin-top: 30px;
 }
 
 .row {
@@ -63,18 +92,10 @@ nav {
     border-bottom: 4px solid rgb(209, 171, 1);
 }
 
-.navbar a[href="history.html"]:not(:hover):active,
-.navbar a[href="menu.html"]:(:hover):active,
-.navbar a[href="recipes.html"]:not(:hover):active,
-.navbar a[href="musttry.html"]:not(:hover):active,
-.navbar a[href="order.html"]:not(:hover):active {
-    border-bottom: 4px solid rgb(209, 171, 1);
-}
-
 header {
     text-align: center;
     background-color: #ebffed;
-    color: #22577a;
+    color:#22577a;
     margin: 0;
     padding: 10px;
 }
@@ -86,7 +107,7 @@ header h1 {
 .card {
     border: thin solid #0e0d0d;
     box-shadow: 3px 3px 3px #404040;
-    width: 200px;
+    margin-bottom: 20px;
 }
 
 .card figure {
