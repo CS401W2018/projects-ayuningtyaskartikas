@@ -13,6 +13,7 @@
 
     <nav>
         <div class="navbar">
+            <a href="home.html">Home</a>
             <a href="history.html">History</a> 
             <a href="menu.html">Menu</a>
             <a href="#">Recipes</a> 
@@ -23,56 +24,71 @@
 
     <div class="container">
         <main>
-            <div class="row mainorder">
-                <div class="card">
-                    <article>
-                        <div class="cardtext">
-                            <h3>Title and Topic</h3>
-                            <p>The title of my website is "Indonesia Culinary".</p>
+            <fieldset>
+                <legend>Pokemon Go Login Form</legend>
+                <div id="message"></div>
+                <form action="processing.html" method="get" id="myform">
+                    <div class="form-row">
+                        <label for="fname">First Name:</label> 
+                        <input type="text" name="firstname" id="fname">
+                    </div>
+                    <div class="form-row">
+                        <label for="lname">Last Name:</label> 
+                        <input type="text" name="lastname" id="lname">
+                    </div>
+                    <div class="form-row">
+                        <label for="email">Email:</label> 
+                        <input type="email" name="email" id="email" placeholder="yourname@gmail.com">
+                    </div>
+                    <div class="form-row">
+                        <label for="phone">Phone Number:</label>
+                        <div class="telp">
+                            <select name="extension" id="extension">
+                                <option value="US">+1</option>
+                                <option value="IDN">+62</option>
+                                <option value="JP">+81</option>
+                                <option value="KR">+82</option>
+                            <input type="tel" id="phone" name="phone" required>
                         </div>
-                    </article>
-                </div>
-                <div class="card">
-                    <article>
-                        <div class="cardtext">
-                            <h3>Why I choose this topic?</h3>
-                            <p>The most important reason why I chose this topic is because I love food. It's been a year since I left Indonesia, I miss the delicious food there, I hope this website can cure my longing. but besides that I also want to introduce traditional food and desserts from Indonesia to my friends here, I will show you about the history, menu, recipes and also culinary recommendations that must be tried.</p>
-                        </div>
-                    </article>
-                </div>
-                <div class="card feature">
-                    <article>
-                        <div class="cardtext">
-                            <h3>Homepage & 5 content pages.</h3>
-                            <ul>
-                                <li><p>There are 1 Homepage : contain the highlights of my entire website</p></li>
-                                <li><p>History page : explaining a little about the background and history of Indonesian culinary</p></li>
-                                <li><p>Menu page : this will contains some traditional Indonesian dishes, desserts & drinks</p></li>
-                                <li><p>Recipes page : this will contains some of the recipes</p></li>
-                                <li><p>Must Try! page : this is the page where I will use a table, this will contain recommendations for menu choices from me / the most favorites, and based on the best time to enjoy them, for example: dinner </p></li>
-                                <li><p>Order page : this is where I will use a form, where the fields that will be used are name, email, phone number, country, menu choices you want to order</p></li>
-                            </ul>
-                        </div>
-                    </article>
-                </div>
-                <div class="card">
-                    <article>
-                        <div class="cardtext">
-                            <h3>My Form & Table.</h3>
-                            <p>Like I stated before, for the form there will be a rank of favorites food and the best time to enjoy it. For form some data that I will collect are; name, email, phone number, country, menu choices.</p>
-                        </div>
-                    </article>
-                </div>
-                <div class="card">
-                    <article>
-                        <div class="cardtext">
-                            <h3>References</h3>
-                            <p>I will do research on Google for get some informations, also do research by asking my mom and my friends back home in Indonesia for recipe. These are two references that I will use : <a href="https://en.wikipedia.org/wiki/Indonesian_cuisine">Wikipedia</a> and <a href="https://migrationology.com/indonesian-food/">50 best indonesian food.</a></p>
-                        </div>
-                    </article>
-                </div>
-                <h4>I have read the warnings about doing this final project.</h4>
-            </div>
+                    </div>
+                    <div class="form-row">
+                        <label for="datebirth">Date of Birth:</label>
+                        <input type="date" id="datebirth" name="datebirth" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="password">Password:</label> 
+                        <input type="password" name="password" id="password" required minlength="8">
+                    </div>
+                    <div class="form-row">
+                        <label for="country">Country:</label> 
+                        <select name="country" id="country">
+                            <option value="USA">United States</option>
+                            <option value="IDN">Indonesia</option>
+                            <option value="JP">Japan</option>
+                            <option value="KR">Korea</option>
+                        </select>
+                    </div>
+                    <div class="radio-row">
+                        <div class="form-spacer">Choose your Pokemon:</div>
+                        <label><input type="radio" name="pokemon" value="Bulbasaur" id="pokemon">Bulbasaur</label>
+                        <label><input type="radio" name="pokemon" value="Pikachu" id="pokemon">Pikachu</label> 
+                        <label><input type="radio" name="pokemon" value="Charmender" id="pokemon">Charmender</label> 
+                        <label><input type="radio" name="pokemon" value="Eeve" id="pokemon">Eeve</label>  
+                    </div>
+                    <div class="radio-row">
+                        <div class="form-spacer"></div>
+                        <label><input type="checkbox" name="terms" id="terms"> By click this, I agree with the terms and conditions</label>
+                    </div>
+                    <div class="form-row">
+                        <label for="bio">Notes:</label>
+                        <textarea name="bio" id="bio"></textarea>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-spacer"></div>
+                        <input type="submit">
+                    </div>
+                </form>
+            </fieldset>
         </main>
     </div>   
 </body>

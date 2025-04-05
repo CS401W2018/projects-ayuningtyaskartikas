@@ -9,89 +9,15 @@ body {
     width: 100%;
 }
 
-main {
-    width: 100%;
-    margin: 0;
-}
-
-/*for the table*/
-legend {
-    background-color: rgb(209, 171, 1);
-    color: white;
-    padding: 10px;
-    border-radius: 15px;
-}
-
-fieldset {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-    color: rgb(0, 0, 0);
-    border-radius: 20px;
-    margin: 0;
-}
-
-.telp {
-    display: flex;
-    gap: 20px;
-}
-.form-row {
-    display: flex;
-    gap: 10px;
-    margin: 10px 0;
-}
-
-.form-row label {
-    width: 150px;
-    text-align: right;
-}
-
-.form-spacer {
-    width: 150px;
-    text-align: right;
-}
-
-.radio-row {
-    display: flex;
-    gap: 10px;
-    margin: 10px 0;
-}
-
-.form-row {
-    padding-bottom: 10px;
-}
-
-.form-row input:not([type="submit"]):focus {
-    background-color: #ecd656;
-}
-
-.form-row input[type="submit"]:hover {
-    background-color: #f7d932;
-}
-
-.form-row select:focus {
-    background-color: #ecd656;
-    border-radius: 5px;
-}
-
-.form-row input:not([type="submit"]) {
-    padding: 5px 10px;
-    border-radius: 5px;
-}
-
-.form-row input[type="submit"] {
-    padding: 10px;
-    background-color: #5a170e;
-    color: white;
-    border-radius: 15px;
-}
-
 .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 15px;
+}
+
+main {
+    width: 100%;
 }
 
 main h2 {
@@ -126,15 +52,23 @@ nav {
     padding: 14px 40px;
     text-decoration: none;
     border-bottom: 3px solid transparent;
-  }
+}
   
 .navbar a:hover {
     border-bottom: 4px solid rgb(209, 171, 1);
-  }
+}
   
-.navbar a.active {
+.navbar a:active {
     border-bottom: 4px solid rgb(209, 171, 1);
-  }
+}
+
+.navbar a[href="history.html"]:not(:hover):active,
+.navbar a[href="menu.html"]:(:hover):active,
+.navbar a[href="recipes.html"]:not(:hover):active,
+.navbar a[href="musttry.html"]:not(:hover):active,
+.navbar a[href="order.html"]:not(:hover):active {
+    border-bottom: 4px solid rgb(209, 171, 1);
+}
 
 header {
     text-align: center;
@@ -165,6 +99,54 @@ header h1 {
 .cardtext {
     padding-left: 10px;
     padding-right: 10px;
+}
+
+/* style for the table*/
+table {
+    padding: 20px;
+    margin: 10px;
+}
+
+#caption {
+    color: #000;
+}
+
+#odd {
+    background-color: #292929;
+}
+
+#even {
+    background-color: #5e5a5a;
+}
+
+.schedule {
+    border-spacing: 0;
+    border-collapse: collapse;
+    color: white;
+}
+
+.schedule th, .schedule td {
+    padding: 3px;
+}
+
+.schedule thead th {
+    background-color: #8a820f;
+    color: white;
+}
+
+#women {
+    background-color: #ac0b25;
+    color: white;
+}
+
+#men {
+    background-color: #1a097e;
+    color: white;
+}
+
+.schedule tfoot th, .schedule tfoot td {
+    background-color:#8a820f;
+    color: white;
 }
 
 footer {
@@ -232,27 +214,6 @@ footer p {
     }
 
     
-}
-
-@media ONLY screen AND (max-width: 600PX) {
-    .form-row {
-        flex-direction: column;
-    }
-
-    .form-row label {
-        text-align: left;
-    }
-
-    .radio-row {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .form-row select {
-        display: flex;
-        flex-wrap: wrap;
-        text-align: left;
-    }
 }
 
 @media print {
