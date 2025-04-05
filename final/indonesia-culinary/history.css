@@ -16,6 +16,36 @@ body {
     padding: 15px;
 }
 
+.indo {
+    width: 300px;
+    height: auto;
+    border: thin solid #000000;
+    text-align: center;
+    margin: 10px auto;
+    text-shadow: #ff1414;
+    text-transform: capitalize;
+}
+
+.floating {
+    float: right;
+}
+
+.indo {
+    width: 250px;
+    border: thin solid #000000;
+    box-shadow: 3px 3px 3px rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.indo img {
+    width: 100%;
+    margin: 10px 10px 10px 10px;
+}
+
+.clear {
+    clear: both;
+}
+
 main {
     width: 100%;
 }
