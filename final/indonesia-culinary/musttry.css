@@ -101,6 +101,11 @@ header h1 {
     padding-right: 10px;
 }
 
+figure img {
+    width: 200px;
+    height: auto;
+}
+
 /* style for the table*/
 table {
     padding: 20px;
@@ -109,42 +114,60 @@ table {
 
 #caption {
     color: #000;
+    margin-bottom: 10px;
 }
 
 #odd {
-    background-color: #292929;
+    background-color: #ebffed;
+    color: #000;
 }
 
 #even {
-    background-color: #5e5a5a;
+    background-color: #ebffed;
+    color: #000;
 }
 
-.schedule {
+.food {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #8a820f;
     border-spacing: 0;
     border-collapse: collapse;
     color: white;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-.schedule th, .schedule td {
-    padding: 3px;
+.table-container {
+    overflow-x: auto;
+    width: 100%;
 }
 
-.schedule thead th {
+.food th, .food td {
+    padding: 15px;
+    border: 2px solid #8a820f; /* Cell border */
+    text-align: center;
+}
+
+.food thead th {
     background-color: #8a820f;
     color: white;
+    padding: 10px;
 }
 
-#women {
-    background-color: #ac0b25;
-    color: white;
+#dessert {
+    background-color: #ebffed;
+    color: rgb(0, 0, 0);
 }
 
-#men {
-    background-color: #1a097e;
-    color: white;
+#maindish {
+    background-color: #ebffed;
+    color: rgb(0, 0, 0);
 }
 
-.schedule tfoot th, .schedule tfoot td {
+.food tfoot th, .food tfoot td {
     background-color:#8a820f;
     color: white;
 }
