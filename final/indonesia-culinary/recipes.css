@@ -16,6 +16,10 @@ body {
     padding: 15px;
 }
 
+.anchor {
+    padding-top: 10px;
+}
+
 .indo {
     width: 300px;
     height: auto;
