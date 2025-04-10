@@ -149,6 +149,10 @@ table {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
+table td {
+    color: #0e0d0d;
+}
+
 .table-container {
     overflow-x: auto;
     width: 100%;
