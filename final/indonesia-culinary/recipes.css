@@ -16,6 +16,39 @@ body {
     padding: 15px;
 }
 
+.indo {
+    width: 300px;
+    height: auto;
+    border: thin solid #000000;
+    text-align: center;
+    margin: 15px;
+    padding-bottom: 5px;
+    text-shadow: #ff1414;
+    text-transform: capitalize;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 3px 3px 3px rgb(0, 0, 0);
+}
+
+.floating-right {
+    float: right;
+}
+
+.floating-left {
+    float: left;
+}
+
+.indo img {
+    width: 100%;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.clear {
+    clear: both;
+}
+
 main {
     width: 100%;
 }
@@ -26,19 +59,12 @@ main h2 {
 
 .wrapper {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
 }
 
 .sticky {
     position: sticky;
     top: 0;
-}
-
-.row {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
 }
 
 nav {
@@ -82,11 +108,13 @@ header h1 {
 }
 
 .sidebar {
-    margin-left: 20px;
-    margin-right: 20px;
     border: solid thick rgb(209, 171, 1);
     padding: 20px;
     border-radius: 10px;
+}
+
+aside {
+    width: 100%;
 }
 
 aside a {
@@ -97,12 +125,6 @@ aside a {
 aside a:hover {
     color: rgb(209, 171, 1);
     text-shadow: 0 2px 0 #404040;
-}
-
-.row {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 5px;
 }
 
 .card {
@@ -144,6 +166,10 @@ footer p {
         flex-direction: column;
     }
 
+    aside {
+        width: 100%;
+    }
+
     nav {
         flex-direction: column;
     }
@@ -169,6 +195,10 @@ footer p {
 @media ONLY screen AND (max-width : 500px) {
     .container {
         flex-direction: column;
+    }
+
+    aside {
+        width: 100%;
     }
 
     .row {
