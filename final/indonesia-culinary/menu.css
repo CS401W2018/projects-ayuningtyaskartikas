@@ -16,6 +16,20 @@ body {
     padding: 15px;
 }
 
+.judul {
+    width: 30%;
+    text-align: center;
+    border-bottom: 4px solid rgb(209, 171, 1);
+}
+
+.quote {
+    margin-left: 20px;
+    margin-right: 20px;
+    border: solid thick rgb(209, 171, 1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
 main {
     width: 100%;
 }
@@ -25,9 +39,34 @@ main h2 {
 }
 
 .wrapper {
-    display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.wrapmenu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.menu {
+    width: 100%;
+    height: auto;
+    border: thin solid #000000;
+    text-align: center;
+    margin: 15px;
+    padding-bottom: 5px;
+    text-shadow: #ff1414;
+    text-transform: capitalize;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 3px 3px 3px rgb(0, 0, 0);
+}
+
+.menu img {
+    width: 100%; 
+    height: auto; 
+    object-fit: cover;
 }
 
 .row {
@@ -42,6 +81,11 @@ nav {
     background-color: #22577a;
     padding-top: 20px;
 }
+
+.sticky {
+    position: sticky;
+    top: 0;
+}
   
 /* Style the links using navbar class */
 .navbar a {
@@ -52,15 +96,17 @@ nav {
     padding: 14px 40px;
     text-decoration: none;
     border-bottom: 3px solid transparent;
-  }
+}
   
 .navbar a:hover {
     border-bottom: 4px solid rgb(209, 171, 1);
-  }
+    color: rgb(209, 171, 1);
+    text-shadow: 0 2px 2px #404040;
+}
   
 .navbar a.active {
     border-bottom: 4px solid rgb(209, 171, 1);
-  }
+}
 
 header {
     text-align: center;

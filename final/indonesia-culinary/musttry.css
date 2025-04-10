@@ -24,6 +24,15 @@ main h2 {
     text-align: center;
 }
 
+main a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+main a:hover {
+    color: #22577a;
+}
+
 .wrapper {
     display: flex;
     justify-content: center;
@@ -56,17 +65,11 @@ nav {
   
 .navbar a:hover {
     border-bottom: 4px solid rgb(209, 171, 1);
+    color: rgb(209, 171, 1);
+    text-shadow: 0 2px 2px #404040;
 }
   
 .navbar a:active {
-    border-bottom: 4px solid rgb(209, 171, 1);
-}
-
-.navbar a[href="history.html"]:not(:hover):active,
-.navbar a[href="menu.html"]:(:hover):active,
-.navbar a[href="recipes.html"]:not(:hover):active,
-.navbar a[href="musttry.html"]:not(:hover):active,
-.navbar a[href="order.html"]:not(:hover):active {
     border-bottom: 4px solid rgb(209, 171, 1);
 }
 
@@ -76,6 +79,11 @@ header {
     color: #22577a;
     margin: 0;
     padding: 10px;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
 }
 
 header h1 {
@@ -114,7 +122,8 @@ table {
 
 #caption {
     color: #000;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 #odd {
@@ -130,7 +139,7 @@ table {
 .food {
     margin-top: 20px;
     margin-bottom: 20px;
-    border: 2px solid #8a820f;
+    border: 2px solid rgb(209, 171, 1);
     border-spacing: 0;
     border-collapse: collapse;
     color: white;
@@ -147,12 +156,12 @@ table {
 
 .food th, .food td {
     padding: 15px;
-    border: 2px solid #8a820f; /* Cell border */
+    border: 2px solid rgb(209, 171, 1); /* Cell border */
     text-align: center;
 }
 
 .food thead th {
-    background-color: #8a820f;
+    background-color: rgb(209, 171, 1);
     color: white;
     padding: 10px;
 }
@@ -168,7 +177,7 @@ table {
 }
 
 .food tfoot th, .food tfoot td {
-    background-color:#8a820f;
+    background-color:rgb(209, 171, 1);
     color: white;
 }
 

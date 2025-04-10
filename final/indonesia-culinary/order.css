@@ -116,6 +116,11 @@ nav {
     background-color: #22577a;
     padding-top: 20px;
 }
+
+.sticky {
+    position: sticky;
+    top: 0;
+}
   
 /* Style the links using navbar class */
 .navbar a {
@@ -130,6 +135,8 @@ nav {
   
 .navbar a:hover {
     border-bottom: 4px solid rgb(209, 171, 1);
+    color: rgb(209, 171, 1);
+    text-shadow: 0 2px 2px #404040;
   }
   
 .navbar a.active {

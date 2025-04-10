@@ -89,6 +89,8 @@ nav {
   
 .navbar a:hover {
     border-bottom: 4px solid rgb(209, 171, 1);
+    color: rgb(209, 171, 1);
+    text-shadow: 0 2px 2px #404040;
   }
   
 .navbar a.active {
@@ -101,6 +103,11 @@ header {
     color: #22577a;
     margin: 0;
     padding: 10px;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
 }
 
 header h1 {
