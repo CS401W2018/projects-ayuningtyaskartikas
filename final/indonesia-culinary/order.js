@@ -1,10 +1,12 @@
 document.getElementById("myform").addEventListener('submit',function(event) {
     event.preventDefault();
-    //alert("Form submitted");
+    
     const firstN = document.getElementById("fname").value;
     console.log(firstN);
     const lastN = document.getElementById("lname").value;
     console.log(lastN);
+    const email = document.getElementById("email").value;
+    console.log(email);
     const extension = document.getElementById("extension").value;
     console.log(extension);
     const phone = document.getElementById("phone").value;
@@ -22,6 +24,7 @@ document.getElementById("myform").addEventListener('submit',function(event) {
     const formData = {
         fname: firstN,
         lname: lastN,
+        email: email;
         extension: extension,
         phone: phone,
         country: country,
@@ -35,7 +38,7 @@ document.getElementById("myform").addEventListener('submit',function(event) {
         if (xhr.readyState === 4 && xhr.status === 200) {
             const response = JSON.parse(xhr.responseText);
             document.getElementById('message').innerHTML = response.message;
-            document.getElementById('myForm').innerHTML = "";
+            document.getElementById('myform').innerHTML = "";
         } else if (xhr.readyState === 4) {
             alert('Error submitting form.');
         }
