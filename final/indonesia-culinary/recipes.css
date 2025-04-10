@@ -17,7 +17,7 @@ body {
 }
 
 .anchor {
-    padding-top: 10px;
+    padding: 10px;
 }
 
 .indo {
@@ -55,6 +55,10 @@ body {
 
 main {
     width: 100%;
+}
+
+ol {
+    margin-left: 5px;
 }
 
 main h2 {

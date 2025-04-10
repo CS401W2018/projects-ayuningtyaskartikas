@@ -38,11 +38,6 @@ main h2 {
     text-align: center;
 }
 
-.wrapper {
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
 .wrapmenu {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -50,7 +45,6 @@ main h2 {
 }
 
 .menu {
-    width: 100%;
     height: auto;
     border: thin solid #000000;
     text-align: center;
