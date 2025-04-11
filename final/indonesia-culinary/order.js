@@ -24,7 +24,7 @@ document.getElementById("myform").addEventListener('submit',function(event) {
     const formData = {
         fname: firstN,
         lname: lastN,
-        email: email;
+        email: email,
         extension: extension,
         phone: phone,
         country: country,
