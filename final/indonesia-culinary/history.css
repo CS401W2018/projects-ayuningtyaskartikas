@@ -148,6 +148,27 @@ footer p {
     color: white;
 }
 
+iframe {
+    border: 0;
+}
+.vid_indo iframe {
+    width: 100%;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px rgb(0, 0, 0);
+    max-width: 681px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+}
+
+.vid_indo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
 @media ONLY screen AND (max-width : 700px) {
     .container {
         flex-direction: column;
@@ -155,6 +176,14 @@ footer p {
 
     nav {
         flex-direction: column;
+    }
+
+    .floating-right {
+        float: right;
+    }
+    
+    .floating-left {
+        float: left;
     }
 
     .wrapper img {
@@ -184,6 +213,14 @@ footer p {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .floating-right {
+        float: center;
+    }
+    
+    .floating-left {
+        float: center;
     }
 
     nav {
