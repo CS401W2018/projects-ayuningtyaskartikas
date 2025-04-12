@@ -9,7 +9,7 @@ body {
     width: 100%;
 }
 
-.container {
+.container_musttry {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -108,7 +108,7 @@ header h1 {
     padding-right: 10px;
 }
 
-figure img {
+.table_img img {
     width: 200px;
     height: auto;
 }

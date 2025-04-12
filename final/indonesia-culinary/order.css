@@ -13,7 +13,7 @@ main {
     width: 100%;
 }
 
-/*for the table*/
+/*for the form*/
 legend {
     text-align: center;
     border: solid thick rgb(209, 171, 1);
@@ -30,7 +30,7 @@ fieldset {
     color: rgb(0, 0, 0);
     border: solid thick rgb(209, 171, 1);
     border-radius: 20px;
-    margin: 0;
+    margin: auto;
 }
 
 label {
@@ -43,6 +43,7 @@ label {
 }
 .form-row {
     display: flex;
+    align-items: center;
     gap: 10px;
     margin: 10px 0;
 }
@@ -60,6 +61,7 @@ label {
 
 .radio-row {
     display: flex;
+    align-items: center;
     gap: 10px;
     margin: 10px 0;
 }
@@ -93,7 +95,7 @@ label {
     border-radius: 15px;
 }
 
-.container {
+.container_order {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
