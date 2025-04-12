@@ -161,6 +161,18 @@ footer p {
         width: 100%;
     }
 
+    .wrapmenu {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .judul {
+        width: 40%;
+        text-align: center;
+        border-bottom: 4px solid rgb(209, 171, 1);
+    }
+
     .row {
         flex-direction: column;
         align-items: center;
@@ -184,6 +196,18 @@ footer p {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .wrapmenu {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .judul {
+        width: 45%;
+        text-align: center;
+        border-bottom: 4px solid rgb(209, 171, 1);
     }
 
     nav {
