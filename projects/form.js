@@ -25,6 +25,17 @@ document.getElementById("myform").addEventListener('submit',function(event) {
         return;
     }
 
+    if (!phone) {
+        alert("You need put your phone number.");
+        return;
+    }
+
+    if (!password) {
+        alert("You need to have a password.");
+        return;
+    }
+
+
     const formData = {
         fname: firstN,
         lname: lastN,
