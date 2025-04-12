@@ -57,6 +57,10 @@ main {
     width: 100%;
 }
 
+main a {
+    text-decoration: none;
+}
+
 ol {
     margin-left: 5px;
 }
