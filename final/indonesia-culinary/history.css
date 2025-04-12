@@ -58,9 +58,7 @@ main h2 {
 }
 
 .wrapper {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    margin: 0;
 }
 
 .row {
@@ -157,7 +155,7 @@ iframe {
     box-shadow: 3px 3px 3px rgb(0, 0, 0);
     max-width: 681px;
     margin-top: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 
 }
 
@@ -166,7 +164,7 @@ iframe {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 @media ONLY screen AND (max-width : 700px) {
@@ -176,14 +174,6 @@ iframe {
 
     nav {
         flex-direction: column;
-    }
-
-    .floating-right {
-        float: right;
-    }
-    
-    .floating-left {
-        float: left;
     }
 
     .wrapper img {
@@ -213,14 +203,6 @@ iframe {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
-
-    .floating-right {
-        float: center;
-    }
-    
-    .floating-left {
-        float: center;
     }
 
     nav {
