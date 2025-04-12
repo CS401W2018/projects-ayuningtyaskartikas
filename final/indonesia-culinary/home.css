@@ -143,6 +143,12 @@ main h2 {
     border-radius: 10px;
 }
 
+aside {
+    display: block;
+    align-items: center;
+    width: 100%;
+}
+
 .indo_history {
     width: 300px;
     height: auto;
